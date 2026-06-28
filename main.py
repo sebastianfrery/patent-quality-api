@@ -19,7 +19,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_DIR = Path(__file__).parent.parent
+DATA_DIR = Path(__file__).parent
 
 # Load data once on startup
 print("Loading data...", flush=True)
